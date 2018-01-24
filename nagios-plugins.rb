@@ -12,7 +12,7 @@ class NagiosPlugins < Formula
 
   depends_on "openssl"
   depends_on "postgresql" => :optional
-  depends_on :mysql => :optional
+  depends_on "mysql" => :optional
 
   patch :p0, :DATA
 

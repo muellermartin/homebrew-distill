@@ -6,7 +6,7 @@ class Meld < Formula
 
   depends_on "intltool" => :build
   depends_on "itstool" => :build
-  depends_on :python
+  depends_on "python"
   depends_on "gtk+" # gtk-update-icon-cache is currently missing in gtk+3
   depends_on "gtk+3"
   depends_on "glib"
